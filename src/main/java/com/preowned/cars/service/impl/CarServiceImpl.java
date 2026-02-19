@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 public class CarServiceImpl implements ICarService {
 
-    private CarRepository carRepository; //will be injected
+    //private CarRepository carRepository; //will be injected
 
     @Override
     public List<CarDTO> getAllCars() {
